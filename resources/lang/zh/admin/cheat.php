@@ -1,0 +1,43 @@
+<?php
+return [
+	'title' 	=> '秘籍管理',
+	'desc' 		=> '秘籍列表',
+	'create' 	=> '添加秘籍',
+	'edit' 		=> '修改秘籍',
+	'info' 		=> '秘籍信息',
+	'tags' 		=> '秘籍标签',
+	'new_tags' 	=> '新增标签',
+	'push' 		=> '发布秘籍',
+	'category'  => '秘籍分类',
+	'menu'      => '顶级分类',
+	'model' 	=> [
+		'id' 				=> 'ID',
+		'articleCategoryId' 				=> '秘籍分类',
+		'name' 			=> '秘籍标题',
+		'author' 			=> '作者',
+		'overview' 			=> '秘籍摘要',
+		'thumb'				=> '秘籍图片',
+		'banner' 			=> '秘籍banner',
+        'content' 		    => '秘籍内容',
+        'content_mark' 		=> '秘籍内容',
+        'meta_title' 		=> 'SEO标题',
+        'meta_keyword' 		=> 'SEO关键字',
+        'meta_description' 	=> 'SEO描述',
+        'status' 			=> '秘籍状态',
+        'created_at' 		=> '创建时间',
+        'updated_at' 		=> '修改时间',
+	],
+	'placeholder' 	=> [
+		'id' 			=> 'ID',
+		'name' 		=> '请输入秘籍标题',
+		'author' 		=> '请输入角色',
+        'content' 		=> '请输入秘籍内容',
+        'thumb' 		=> '请上传秘籍图片',
+        'created_at' 	=> '创建时间',
+        'updated_at' 	=> '修改时间',
+	],
+	'action' => [
+		'create' => '<i class="fa fa-plus"></i> 添加秘籍',
+	],
+
+];

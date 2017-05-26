@@ -1,0 +1,18 @@
+{
+	"name": "八斗API文档",
+	"title": "八斗API文档",
+	"url": "http://res.ngrok.4kb.cn",
+	"version": "0.0.1",
+	"header": {
+		"title": "八斗API",
+		"filename": "apidoc.md/header.md"
+	},
+	"footer": {
+		"title": "八斗API",
+		"filename": "apidoc.md/footer.md"
+	},
+	"template": {
+		"withCompare": true,
+		"withGenerator": true
+	}
+}

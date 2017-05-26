@@ -1,0 +1,31 @@
+<?php
+return [
+	'create' 	=> '添加驾校',
+	'edit' 		=> '修改驾校',
+	'model' 	=> [
+		'id' 				=> 'ID',
+		'name' 				=> '驾校名称',
+		'address' 			=> '驾校地址',
+		'phone' 			=> '联系方式',
+		'overview' 			=> '驾校简介：',
+		'description'		=> '驾校描述：',
+		'price'		        => '车型价格：',
+		'thumb' 			=> '驾校图片',
+        'district' 		    => '驾校所属区域',
+        'status' 			=> '审核状态',
+        'c1'		        => 'c1价格',
+        'c2'		        => 'c2价格',
+        'created_at' 		=> '创建时间',
+        'updated_at' 		=> '修改时间',
+	],
+	'placeholder' 	=> [
+		'id' 				=> 'ID',
+		'name' 				=> '请输入驾校名称',
+		'address' 			=> '请输入驾校地址',
+		'phone' 			=> '请输入驾校联系方式',
+		'overview' 			=> '请输入驾校简介',
+		'description'		=> '请输入驾校描述',
+		'type'				=> '请输入车型',
+		'price'				=> '请输入价格',
+	],
+];
